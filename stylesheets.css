@@ -1,0 +1,30 @@
+body{
+    background-color: cornsilk;
+}
+p {
+    background-color: rgba(38, 0, 255, 0.397);
+    display: inline;
+    padding: auto;
+    color: rgb(240, 245, 255);
+}
+
+h1{
+    display: block;
+}
+span{
+    background-color: burlywood;
+}
+table, tr{
+    border: 2px dashed;
+    border-color:  rgba(226, 43, 43, 0.493);
+
+}
+
+img{
+    width: 20%;
+    border: 6px solid rgba(226, 43, 43, 0.493)
+}
+
+strong{
+    color: darkblue;
+}
