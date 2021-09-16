@@ -1,18 +1,23 @@
+*{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
 body{
-    background-color: cornsilk;
+    background-color: rgba(255, 248, 220, 0.767);
+    
 }
 p {
-    background-color: rgba(38, 0, 255, 0.397);
-    display: inline;
-    padding: auto;
+    
+    padding: 0px;
     color: rgb(240, 245, 255);
 }
 
 h1{
-    display: block;
+    
 }
 span{
-    background-color: burlywood;
+    background-color: rgb(175, 149, 115);
 }
 table, tr{
     border: 2px dashed;
@@ -21,10 +26,20 @@ table, tr{
 }
 
 img{
-    width: 20%;
-    border: 6px solid rgba(226, 43, 43, 0.493)
+    width: 40%;
+    border: 2px solid rgba(221, 120, 120, 0.493)
 }
 
 strong{
     color: darkblue;
+}
+
+.indexHeadline{
+    background-color: rgb(180, 162, 162);
+    width: 80%;
+    /*position: relative;*/
+}
+h1.indexHeadline{
+    display: inline;
+    position: static;
 }
